@@ -5,5 +5,5 @@ app.listen(3000, () =>
 );
 
 app.get('/', (req, res) =>
-  res.send({ cpuTemp: 60, gpuTemp: 30, discUsage: 70 })
+  res.send({ cpuTemp: 60, gpuTemp: 30, cpuUsage: 70, memoryAvailable: 1.5 })
 );
